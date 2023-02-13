@@ -12,7 +12,7 @@
       Demo
     </a>
     <span> | </span>
-    <a href="https://github.com/BlackFenix07/My Gallery Master">
+    <a href="https://github.com/BlackFenix07/My-Gallery-Master">
       Solution
     </a>
     <span> | </span>
