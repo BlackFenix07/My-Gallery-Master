@@ -1,0 +1,127 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: "Montserrat";
+}
+
+body {
+    margin: 25px;
+}
+
+header .character-profile {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 35px;
+}
+
+header .character-profile b {
+    color: #4E5150;
+}
+
+header .character-profile p {
+    color: #BDBDBD;
+}
+
+header .character {
+    margin-bottom: 14px;
+    width: 43%;
+    min-width: 140px;
+    max-width: 205px;
+    border-radius: 20px;
+}
+
+header .name-profession {
+    margin-bottom: 14px;
+    text-align: center;
+}
+
+header .name-profession b {
+    font-size: 1.7rem;
+}
+
+header .name-profession p {
+    font-size: 1.4rem;
+}
+
+header .information-profile {
+    display: flex;
+    gap: 10px;
+    width: 100%;
+    min-width: 254px;
+    max-width: 320px;
+}
+
+header .post, .followers, .following {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    min-width: 78px;
+    max-width: 100px;
+    height: 60px;
+    background: #E5E5E5;
+    border-radius: 5px;
+}
+
+main .grid-container {
+    display: grid;
+    grid-template: repeat(3, minmax(110px, 300px)) / repeat(3, 1fr);
+    grid-template-areas:
+        "item1 item2 item2"
+        "item3 item3 item4"
+        "item5 item6 item4";
+    place-content: center;
+    gap: 12px;
+    margin: auto;
+    width: 90%;
+    max-width: 1000px;
+    height: 99vh;
+}
+
+main .item1 {
+    grid-area: item1;
+}
+
+main .item2 {
+    grid-area: item2;
+}
+
+main .item3 {
+    grid-area: item3;
+}
+
+main .item4 {
+    grid-area: item4;
+}
+
+main .item5 {
+    grid-area: item5;
+}
+
+main .item6 {
+    grid-area: item6;
+}
+
+main img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 12px;
+    filter: drop-shadow(0px 4px 6px rgba(0, 0, 0, 0.15));
+}
+
+footer {
+    margin: 100px auto 0;
+    font-size: 12px;
+    font-weight: 700;
+    text-align: center;
+    color: #B9BDCF;
+    cursor: pointer;
+}
